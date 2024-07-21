@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "images": [
+      "/images/corolla/1.jpeg",
+      "/images/corolla/2.jpeg",
+      "/images/corolla/3.jpeg",
+      "/images/corolla/4.jpeg"
+    ],
+    "make": "Toyota",
+    "model": "Corolla 2016",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Sedan",
+    "rating": 4.5,
+    "price": 60,
+    "features": ["AC", "GPS", "Power Steering", "Sun Roof", "Music System"],
+    "location": "Banjara Hills",
+    "availability": true
+  },
+  {
+    "id": 2,
+    "images": [
+      "/images/civic/1.jpeg",
+      "/images/civic/2.jpeg",
+      "/images/civic/3.jpeg",
+      "/images/civic/4.jpeg"
+    ],
+    "make": "Honda",
+    "model": "Civic 2017",
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "Sedan",
+    "rating": 4.3,
+    "price": 55,
+    "features": ["AC", "GPS", "Power Steering"],
+    "location": "Jubilee Hills",
+    "availability": true
+  },
+  {
+    "id": 3,
+    "images": [
+      "/images/swift/1.jpeg",
+      "/images/swift/2.jpeg",
+      "/images/swift/3.jpeg",
+      "/images/swift/4.jpeg"
+    ],
+    "make": "Maruti Suzuki",
+    "model": "Swift 2018",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.0,
+    "price": 45,
+    "features": ["AC", "Music System"],
+    "location": "Gachibowli",
+    "availability": false
+  },
+  {
+    "id": 4,
+    "images": [
+      "/images/creta/1.jpeg",
+      "/images/creta/2.jpeg",
+      "/images/creta/3.jpeg",
+      "/images/creta/4.jpeg"
+    ],
+    "make": "Hyundai",
+    "model": "Creta 2019",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "SUV",
+    "rating": 4.6,
+    "price": 70,
+    "features": ["AC", "GPS", "Power Steering", "Sun Roof"],
+    "location": "Banjara Hills",
+    "availability": true
+  },
+  {
+    "id": 5,
+    "images": [
+      "/images/ecosport/1.jpeg",
+      "/images/ecosport/2.jpeg",
+      "/images/ecosport/3.jpeg",
+      "/images/ecosport/4.jpeg"
+    ],
+    "make": "Ford",
+    "model": "EcoSport 2020",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "SUV",
+    "rating": 4.4,
+    "price": 65,
+    "features": ["AC", "GPS", "Power Steering", "Music System"],
+    "location": "Madhapur",
+    "availability": true
+  },
+  {
+    "id": 6,
+    "images": [
+      "/images/seltos/1.jpeg",
+      "/images/seltos/2.jpeg",
+      "/images/seltos/3.jpeg",
+      "/images/seltos/4.jpeg"
+    ],
+    "make": "Kia",
+    "model": "Seltos 2021",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "SUV",
+    "rating": 4.8,
+    "price": 75,
+    "features": ["AC", "GPS", "Power Steering", "Sun Roof", "Music System"],
+    "location": "Banjara Hills",
+    "availability": true
+  },
+  {
+    "id": 7,
+    "images": [
+      "/images/nexon/1.jpeg",
+      "/images/nexon/2.jpeg",
+      "/images/nexon/3.jpeg",
+      "/images/nexon/4.jpeg"
+    ],
+    "make": "Tata",
+    "model": "Nexon 2020",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "SUV",
+    "rating": 4.5,
+    "price": 60,
+    "features": ["AC", "GPS", "Power Steering", "Music System"],
+    "location": "Kondapur",
+    "availability": true
+  },
+  {
+    "id": 8,
+    "images": [
+      "/images/baleno/1.jpeg",
+      "/images/baleno/2.jpeg",
+      "/images/baleno/3.jpeg",
+      "/images/baleno/4.jpeg"
+    ],
+    "make": "Maruti Suzuki",
+    "model": "Baleno 2019",
+    "transmission": "Automatic",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.3,
+    "price": 50,
+    "features": ["AC", "Power Steering", "Music System"],
+    "location": "Secunderabad",
+    "availability": false
+  },
+  {
+    "id": 9,
+    "images": [
+      "/images/i20/1.jpeg",
+      "/images/i20/2.jpeg",
+      "/images/i20/3.jpeg",
+      "/images/i20/4.jpeg"
+    ],
+    "make": "Hyundai",
+    "model": "i20 2018",
+    "transmission": "Manual",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.1,
+    "price": 48,
+    "features": ["AC", "GPS", "Power Steering"],
+    "location": "Secunderabad",
+    "availability": true
+  },
+  {
+    "id": 10,
+    "images": [
+      "/images/xuv700/1.jpeg",
+      "/images/xuv700/2.jpeg",
+      "/images/xuv700/3.jpeg",
+      "/images/xuv700/4.jpeg"
+    ],
+    "make": "Mahindra",
+    "model": "XUV700 2017",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "seats": 7,
+    "carBody": "SUV",
+    "rating": 4.7,
+    "price": 80,
+    "features": ["AC", "GPS", "Power Steering", "Sun Roof", "Music System"],
+    "location": "Ameerpet",
+    "availability": true
+  },
+  {
+    "id": 11,
+    "images": [
+      "/images/jazz/1.jpeg",
+      "/images/jazz/2.jpeg",
+      "/images/jazz/3.jpeg",
+      "/images/jazz/4.jpeg"
+    ],
+    "make": "Honda",
+    "model": "Jazz 2019",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.2,
+    "price": 50,
+    "features": ["AC", "Power Steering", "Music System"],
+    "location": "Ameerpet",
+    "availability": true
+  },
+  {
+    "id": 12,
+    "images": [
+      "/images/figo/1.jpeg",
+      "/images/figo/2.jpeg",
+      "/images/figo/3.jpeg",
+      "/images/figo/4.jpeg"
+    ],
+    "make": "Ford",
+    "model": "Figo 2018",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.0,
+    "price": 47,
+    "features": ["AC", "Power Steering", "Music System"],
+    "location": "Kukatpally",
+    "availability": false
+  },
+  {
+    "id": 13,
+    "images": [
+      "/images/polo/1.jpeg",
+      "/images/polo/2.jpeg",
+      "/images/polo/3.jpeg",
+      "/images/polo/4.jpeg"
+    ],
+    "make": "Volkswagen",
+    "model": "Polo 2017",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Hatchback",
+    "rating": 4.1,
+    "price": 49,
+    "features": ["AC", "Power Steering", "Music System"],
+    "location": "Kukatpally",
+    "availability": true
+  },
+  {
+    "id": 14,
+    "images": [
+      "/images/rapid/1.jpeg",
+      "/images/rapid/2.jpeg",
+      "/images/rapid/3.jpeg",
+      "/images/rapid/4.jpeg"
+    ],
+    "make": "Skoda",
+    "model": "Rapid 2016",
+    "transmission": "Automatic",
+    "fuel": "Diesel",
+    "seats": 5,
+    "carBody": "Sedan",
+    "rating": 4.5,
+    "price": 60,
+    "features": ["AC", "GPS", "Power Steering", "Music System"],
+    "location": "Banjara Hills",
+    "availability": true
+  },
+  {
+    "id": 15,
+    "images": [
+      "/images/ciaz/1.jpeg",
+      "/images/ciaz/2.jpeg",
+      "/images/ciaz/3.jpeg",
+      "/images/ciaz/4.jpeg"
+    ],
+    "make": "Maruti Suzuki",
+    "model": "Ciaz 2018",
+    "transmission": "Manual",
+    "fuel": "Petrol",
+    "seats": 5,
+    "carBody": "Sedan",
+    "rating": 4.4,
+    "price": 58,
+    "features": ["AC", "GPS", "Power Steering", "Music System"],
+    "location": "Kondapur",
+    "availability": true
+  }
+]
