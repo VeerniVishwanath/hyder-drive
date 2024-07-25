@@ -1,7 +1,9 @@
+import Cards from "@/components/cards/cards";
+
 export default function Home() {
   return (
     <main>
-      <h1>HyderDrive</h1>
+      <Cards />
     </main>
   );
 }
