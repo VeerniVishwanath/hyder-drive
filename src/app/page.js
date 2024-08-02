@@ -1,9 +1,12 @@
+"use server";
 import Cards from "@/components/cards/cards";
+import getCarsData from "@/lib/dataUtils";
 
-export default function Home() {
+export default async function Home() {
+  const cars = await getCarsData();
   return (
     <main>
-      <Cards />
+      <Cards cars={cars} />
     </main>
   );
 }
