@@ -20,12 +20,14 @@ export default function CarouselImage({
   containerStyles = "",
   onImageClick = () => {},
   routeOnClick = () => {},
+  carouselPlugins = [],
 }) {
   return (
     <Carousel
       className={`${containerStyles} group`}
       opts={{ loop: loop }}
       setApi={setApi}
+      plugins={carouselPlugins}
     >
       <CarouselContent onClick={routeOnClick}>
         {car.images.map((image, idx) => (
