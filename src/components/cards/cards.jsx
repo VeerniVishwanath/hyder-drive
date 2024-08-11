@@ -3,7 +3,7 @@ import Card from "./card";
 
 export default function Cards({ cars }) {
   return (
-    <div className="flex flex-wrap p-10 justify-around gap-10 bg-[#F3F5F6]">
+    <div className="flex flex-wrap p-10 justify-around gap-10">
       {cars.map((car) => (
         <Card car={car} key={car.id} />
       ))}
