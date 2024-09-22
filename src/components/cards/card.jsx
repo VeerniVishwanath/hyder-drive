@@ -1,18 +1,30 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import { Card as ShadcnCard, CardContent, CardFooter } from "../ui/card";
 import CarouselImage from "../carouselImage/carouselImage";
 import { useRouter } from "next/navigation";
 
 export default function Card({ car }) {
   const router = useRouter();
+  const [loading, setLoading] = useState(false);
+
   const routeOnClick = () => {
+    setLoading(true); // Set loading state
     router.push(`/cars/${car.id}`);
   };
 
   return (
-    <ShadcnCard className="p-[2.5px] group">
-      <CardContent className="p-0">
+    <ShadcnCard className="p-[2.5px] group relative cursor-pointer">
+      {loading && (
+        <div className="absolute z-10 w-full h-full font-semibold flex justify-center items-center text-2xl text-gray-200">
+          Loading...
+        </div>
+      )}
+      <CardContent
+        className={`flex justify-center items-center p-0 ${
+          loading ? "blur-sm" : ""
+        }`}
+      >
         <CarouselImage
           car={car}
           loop={true}
@@ -23,7 +35,10 @@ export default function Card({ car }) {
           routeOnClick={routeOnClick}
         />
       </CardContent>
-      <CardFooter className="flex justify-between p-3" onClick={routeOnClick}>
+      <CardFooter
+        className={`flex justify-between p-3 ${loading ? "blur-sm" : ""}`}
+        onClick={routeOnClick}
+      >
         <div className="flex-col">
           <p className="font-medium text-xl text-gray-700">
             {car.make} {car.model}

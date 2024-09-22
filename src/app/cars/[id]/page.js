@@ -69,7 +69,7 @@ export default function Page({ params }) {
           </div>
         </div>
 
-        <div className="bg-white border-[2px] border-[#EFEFEF]  rounded-3xl p-[0.5rem] 1h-[calc(100dvh-10.75rem)] ">
+        <div className="bg-white border-[2px] border-[#EFEFEF]  rounded-3xl p-[0.5rem] 1h-[calc(100dvh - 10.75rem)] ">
           <CarouselThumbs car={car} />
           <CarInfo car={car} />
         </div>

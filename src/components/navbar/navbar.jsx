@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <div className="flex justify-between pl-5 pr-5 pt-2 pb-2 h-16">
+    <div className="flex justify-between pl-5 pr-5 items-cente bg-[#4374af]">
       <Link href={"/"} className="">
         <Image src="/logo.png" height={100} width={200} quality={100} />
       </Link>

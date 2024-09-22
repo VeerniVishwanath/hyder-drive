@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import blurData from "./blurData.json";
 import {
   Carousel,
   CarouselContent,
@@ -38,9 +39,11 @@ export default function CarouselImage({
             <Image
               src={image}
               width={imageWidth}
-              height={1}
+              height={200}
               alt={`${car.make} ${car.model}`}
               className={`${imageStyles}`}
+              placeholder="blur"
+              blurDataURL={blurData.blurDataURL}
               onClick={() => {
                 onImageClick(idx);
               }}

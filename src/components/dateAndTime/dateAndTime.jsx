@@ -34,17 +34,19 @@ export default function DateAndTime({ totalTime }) {
           <PopoverTrigger>
             <Button
               type="button"
-              className="flex gap-2 border-[1px] bg-blue-600  text-white hover:bg-blue-700 "
+              className="flex gap-2 border-[1px] bg-blue-600  text-white hover:bg-blue-700 h-20 sm:h-auto "
             >
               {date?.from ? (
                 date.to ? (
-                  <>
-                    {format(date.from, "PPP")}
-                    {" - "}
-                    {format(date.to, "PPP")}
-                  </>
+                  <div className="flex flex-col sm:flex-row">
+                    <span>
+                      {format(date.from, "PPP")}
+                    </span>
+                      {" - "}
+                    <span>{format(date.to, "PPP")}</span>
+                  </div>
                 ) : (
-                  <>{format(date.from, "PPP")}</>
+                  <div>{format(date.from, "PPP")}</div>
                 )
               ) : (
                 <span>Pick a Date</span>

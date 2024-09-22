@@ -35,7 +35,7 @@ export default function CarouselThumbs({ car }) {
         buttonMargin="2rem"
         buttons="hidden"
         onImageClick={onImageClick}
-        imageStyles="rounded-lg"
+        imageStyles="rounded-lg cursor-pointer"
       />
     </div>
   );
